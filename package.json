@@ -1,0 +1,9 @@
+{
+  "name": "haffaz",
+  "scripts": {
+    "build": "dictator-cli build"
+  },
+  "dependencies": {
+    "dictator-lib": "^0.0.1"
+  }
+}
