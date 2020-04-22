@@ -2,6 +2,12 @@
 
 An example dictator created with [dictator-lib](https://github.com/tomasbjerre/dictator-lib).
 
+## Usage
+
+It can be used with any kind of repository, not only Node.
+
+### Node
+
 You can let **Haffaz** dictate your source repository by adding it to `package.json` like:
 
 ```json
@@ -11,3 +17,7 @@ You can let **Haffaz** dictate your source repository by adding it to `package.j
   }
 }
 ```
+
+### Other
+
+It can be run from command line with: `npx haffaz@latest`.
