@@ -1,7 +1,13 @@
 {
   "name": "haffaz",
+  "version": "0.0.1",
+  "main": "node_modules/dictator-builder/lib/index.js",
+  "bin": {
+    "haffaz": "node_modules/dictator-builder/lib/index.js"
+  },
   "scripts": {
-    "build": "dictator-builder"
+    "build": "tsc -p .",
+    "run": "npm i -g && haffaz"
   },
   "dependencies": {
     "dictator-builder": "^0.0.1"
