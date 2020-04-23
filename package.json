@@ -8,7 +8,7 @@
   "scripts": {
     "run": "npm run build && npm i -g && haffaz",
     "build": "npm run format",
-    "format": "prettier --write '{*.md,package.json}'"
+    "format": "prettier --write '{*.md,package.json,**/*.json}'"
   },
   "dependencies": {
     "dictator-builder": "^0.0.1"

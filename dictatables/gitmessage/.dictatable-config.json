@@ -1,5 +1,5 @@
 {
- "sourceFile": "gitmessage.txt",
- "targetFile": ".gitmessage",
- "configurationType": "OWNED"
+  "sourceFile": "gitmessage.txt",
+  "targetFile": ".gitmessage",
+  "configurationType": "OWNED"
 }

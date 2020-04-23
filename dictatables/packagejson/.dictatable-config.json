@@ -1,0 +1,11 @@
+{
+  "targetFile": "package.json",
+  "configurationType": "REQUIRED",
+  "contentRequirements": [
+    {
+      "type": "JSONPATH",
+      "expression": "$.devDependencies['prettier']",
+      "value": "^2.0.5"
+    }
+  ]
+}
