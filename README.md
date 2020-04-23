@@ -1,6 +1,6 @@
 # Haffaz
 
-An example dictator created with [dictator-lib](https://github.com/tomasbjerre/dictator-lib).
+An example dictator created with [dictator-builder](https://github.com/tomasbjerre/dictator-builder).
 
 ## Usage
 
