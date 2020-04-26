@@ -10,7 +10,7 @@
           {
             "message": "Some, optional, custom message.",
             "expression": "$.devDependencies['prettier']",
-            "haveValue": "^2.0.5"
+            "value": "^2.0.5"
           }
         ]
       }
