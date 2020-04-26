@@ -1,11 +1,24 @@
 {
+  "message": "Some, optional, custom message informing users about these requirements.",
   "targetFile": "package.json",
   "configurationType": "REQUIRED",
-  "contentRequirements": [
-    {
-      "type": "JSONPATH",
-      "expression": "$.devDependencies['prettier']",
-      "value": "^2.0.5"
-    }
-  ]
+  "haveJsonPathValues": {
+    "message": "Some, optional,  custom message.",
+    "values": [
+      {
+        "message": "Some, optional, custom message.",
+        "expression": "$.devDependencies['prettier']",
+        "haveValue": "^2.0.5"
+      }
+    ]
+  },
+  "notHaveJsonPathNodes": {
+    "message": "Some, optional, custom message.",
+    "values": [
+      {
+        "message": "Some custom message.",
+        "expression": "$.devDependencies['husky']"
+      }
+    ]
+  }
 }
