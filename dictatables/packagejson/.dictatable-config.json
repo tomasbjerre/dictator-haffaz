@@ -16,7 +16,7 @@
     "message": "Some, optional, custom message.",
     "values": [
       {
-        "message": "Some custom message.",
+        "message": "Some, optional,  custom message.",
         "expression": "$.devDependencies['husky']"
       }
     ]
