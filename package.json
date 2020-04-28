@@ -1,6 +1,6 @@
 {
   "name": "haffaz",
-  "version": "0.0.7",
+  "version": "0.0.9",
   "bin": {
     "haffaz": "node_modules/dictator-builder/lib/index.js"
   },
@@ -12,6 +12,6 @@
     "release": "npm version patch && npm run test && npm publish && git push --follow-tags"
   },
   "dependencies": {
-    "dictator-builder": "0.0.8"
+    "dictator-builder": "0.0.7"
   }
 }
