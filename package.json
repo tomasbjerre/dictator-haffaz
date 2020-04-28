@@ -10,6 +10,6 @@
     "format": "npx prettier --write '{*.md,package.json,**/*.json}'"
   },
   "dependencies": {
-    "dictator-builder": "^0.0.1"
+    "dictator-builder": "0.0.4"
   }
 }
