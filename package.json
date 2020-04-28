@@ -6,7 +6,7 @@
   },
   "scripts": {
     "run": "npm run build && npm i -g && haffaz",
-    "build": "npm run format",
+    "build": "npm run format && npm run run",
     "format": "npx prettier --write '{*.md,package.json,**/*.json}'",
     "release": "npm version patch && npm run test && npm publish && git push"
   },
