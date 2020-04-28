@@ -9,6 +9,8 @@ An example dictator created with [dictator-builder](https://github.com/tomasbjer
 
 It can be used with any kind of repository, not only Node.
 
+Example usage [here](https://github.com/tomasbjerre/dictator-haffaz-example).
+
 ### Node
 
 You can let **Haffaz** dictate your source repository by adding it to `package.json` like:
