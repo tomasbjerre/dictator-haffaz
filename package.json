@@ -7,7 +7,8 @@
   "scripts": {
     "run": "npm run build && npm i -g && haffaz",
     "build": "npm run format",
-    "format": "npx prettier --write '{*.md,package.json,**/*.json}'"
+    "format": "npx prettier --write '{*.md,package.json,**/*.json}'",
+    "release": "npm version patch && npm run test && npm publish && git push"
   },
   "dependencies": {
     "dictator-builder": "0.0.5"
