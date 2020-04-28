@@ -1,6 +1,6 @@
 {
   "name": "haffaz",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "bin": {
     "haffaz": "node_modules/dictator-builder/lib/index.js"
   },
