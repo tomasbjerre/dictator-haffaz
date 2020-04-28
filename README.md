@@ -1,6 +1,6 @@
 # Haffaz
 
-[![NPM](https://img.shields.io/npm/v/haffaz.svg?style=flat-square) ](https://www.npmjs.com/package/haffaz)
+[![NPM](https://img.shields.io/npm/v/haffaz.svg?style=flat-square)](https://www.npmjs.com/package/haffaz)
 [![Build Status](https://travis-ci.org/tomasbjerre/dictator-haffaz.svg?branch=master)](https://travis-ci.org/tomasbjerre/dictator-haffaz)
 
 An example dictator created with [dictator-builder](https://github.com/tomasbjerre/dictator-builder).
