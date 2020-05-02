@@ -1,6 +1,8 @@
 {
   "name": "haffaz",
   "version": "0.0.14",
+  "homepage": "https://github.com/tomasbjerre/dictator-haffaz",
+  "repository": "git@github.com:tomasbjerre/dictator-haffaz.git",
   "bin": {
     "haffaz": "node_modules/dictator-builder/lib/index.js"
   },
