@@ -13,6 +13,14 @@
     {
       "target": ".gitignore",
       "haveLineContaining": [".gitmessage"]
+    },
+    {
+      "target": "this-file-should-not-be-in-git",
+      "itShould": "NOT_BE_IN_GIT"
+    },
+    {
+      "target": "this-file-should-not-exist",
+      "itShould": "NOT_EXIST"
     }
   ]
 }
