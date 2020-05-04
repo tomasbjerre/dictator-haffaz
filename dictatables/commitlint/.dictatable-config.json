@@ -12,7 +12,7 @@
     },
     {
       "target": ".gitignore",
-      "haveLineContaining": [".gitmessage"]
+      "haveLineContaining": ["/.gitmessage"]
     },
     {
       "target": "this-file-should-not-be-in-git",
