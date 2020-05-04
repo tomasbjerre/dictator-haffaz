@@ -7,7 +7,7 @@
       "chmod": "0755"
     },
     {
-      "copyFrom": ".gitmessage",
+      "copyFrom": "\\.gitmessage",
       "target": "."
     },
     {
