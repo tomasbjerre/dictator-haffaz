@@ -2,13 +2,13 @@
   "message": "Setup some git stuff.",
   "actions": [
     {
-      "copyFrom": "pre-commit-hook.txt",
-      "target": ".git/hooks/pre-commit",
+      "copyFrom": "pre-commit",
+      "target": ".git/hooks",
       "chmod": "0755"
     },
     {
-      "copyFrom": "gitmessage.txt",
-      "target": ".gitmessage"
+      "copyFrom": ".gitmessage",
+      "target": "."
     },
     {
       "target": ".gitignore",
