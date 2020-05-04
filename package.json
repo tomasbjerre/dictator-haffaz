@@ -1,6 +1,6 @@
 {
   "name": "haffaz",
-  "version": "0.0.23",
+  "version": "0.0.24",
   "homepage": "https://github.com/tomasbjerre/dictator-haffaz",
   "repository": "git@github.com:tomasbjerre/dictator-haffaz.git",
   "bin": {
