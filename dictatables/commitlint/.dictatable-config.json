@@ -3,7 +3,10 @@
   "actions": [
     {
       "copyFrom": "pre-commit",
-      "target": ".git/hooks",
+      "target": ".git/hooks"
+    },
+    {
+      "target": ".git/hooks/pre-commit",
       "chmod": "0755"
     },
     {
