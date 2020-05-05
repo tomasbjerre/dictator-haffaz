@@ -18,6 +18,19 @@ You can let **Haffaz** dictate your source repository by adding it to `package.j
 ```json
 {
   "scripts": {
+    "prepare": "haffaz"
+  },
+  "devDependencies": {
+    "haffaz": "a.b.c"
+  }
+}
+```
+
+Or with `npx`, in `prepare` or `preinstall`:
+
+```json
+{
+  "scripts": {
     "prepare": "npx haffaz@a.b.c"
   }
 }
