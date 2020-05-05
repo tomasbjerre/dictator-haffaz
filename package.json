@@ -4,7 +4,7 @@
   "homepage": "https://github.com/tomasbjerre/dictator-haffaz",
   "repository": "git@github.com:tomasbjerre/dictator-haffaz.git",
   "bin": {
-    "haffaz": "node_modules/dictator-builder/lib/index.js"
+    "haffaz": "./index.js"
   },
   "scripts": {
     "run": "npm run build && npm i -g && haffaz",
@@ -14,6 +14,6 @@
     "release": "npm version patch && npm run test && npm publish && git push --follow-tags"
   },
   "dependencies": {
-    "dictator-builder": "0.0.26"
+    "dictator-builder": "0.0.27"
   }
 }
